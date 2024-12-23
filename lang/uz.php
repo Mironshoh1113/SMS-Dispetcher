@@ -1,0 +1,22 @@
+<?php
+return [
+    'title' => 'Kirish',
+    'username' => 'Login',
+    'password' => 'Parol',
+    'login' => 'Kirish',
+    'error' => "Login yoki parol noto'g'ri!",
+    'groups' => 'GURUHLAR',
+    'send' => 'Yuborish',
+    'contacts' => 'Kontaktlar',
+    'groupHistory' => 'Guruh tarixidagi xabarlar',
+    'delete' => "O'chirish",
+    'add' => "Qo'shish",
+    'contactName' => 'Nomlanishi',
+    'contactNumber' => 'Telefon raqami',
+    'exit' => 'Chiqish',
+    'clear' => 'Tarixni tozalash',
+    'inputMessage' => 'Xabarni kiriting...',
+    '' => '',
+    '' => '',
+    '' => '',
+];
