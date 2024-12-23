@@ -213,7 +213,7 @@ $selectedGroupId = $_SESSION['group_id'] ?? '1';
                 <a href="contacts.php" class="me-2"><button class="btn btn-success"><?= $trans['contacts'] ?></button></a>
                 <a href="logout.php" class="btn btn-success"><?= $trans['exit'] ?></a>
 
-                <h3 class="m-0">SMS Yuborish</h3>
+                
             </div>
             <div class="main-content">
                 <div class="sidebar">
@@ -258,7 +258,6 @@ $selectedGroupId = $_SESSION['group_id'] ?? '1';
                         <button type="submit" name="sendSMS" class="btn btn-success mt-2"><?= $trans['send'] ?></button>
                     </form>
 
-
                 </div>
             </div>
         </div>
@@ -278,7 +277,7 @@ $selectedGroupId = $_SESSION['group_id'] ?? '1';
                 document.getElementById('selectedGroupId').value = groupId;
                 document.getElementById('selectedGroupTitle').value = groupTitle;
 
-                // Barcha li...
+               
 
                 // Barcha li elementlarini rangini o‘chirish
                 document.querySelectorAll('.group-item').forEach(el => el.classList.remove('selected'));

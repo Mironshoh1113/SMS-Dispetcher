@@ -33,8 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
+
 <?php include_once 'components/header.php'; ?>
 
 <style>
@@ -165,7 +164,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <a href="contacts.php" class="btn btn-success me-2"><?= $trans['contacts'] ?></a>
                     <a href="logout.php" class="btn btn-success"><?= $trans['exit'] ?></a>
                 </div>
-                <h3>Guruhlar</h3>
+
             </div>
             <div class="accordion" id="groupAccordion">
                 <?php foreach ($contact->getGroups() as $group): ?>
@@ -203,7 +202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
 </body>
 
 <?php include_once 'components/footer.php'; ?>
